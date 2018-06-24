@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <TextBlock FontSize="20" Height="30" Width="100" Margin="90,0,0,183">食物名稱:</TextBlock>
+        <TextBox Height="40" Width="120" Margin="107,50,290,230" FontSize="20" Background="DarkGray" x:Name="CACACA" ></TextBox>
+        <TextBlock FontSize="20" Height="30" Width="110" Margin="0,0,410,183">多少卡洛里:</TextBlock>
+        <TextBox Height="40" Width="120" Margin="354,50,43,230" FontSize="20" Background="DarkGray" x:Name="Food"></TextBox>
+        <TextBlock Margin="10,100,10,0" FontSize="25" >你今天吃了多少卡洛里:</TextBlock>
+        
+        <Grid Height="150" Width="250" Margin="0,115,230,0">
+            <Ellipse Height="150" Width="250"  Fill="Pink" ></Ellipse>
+            <TextBlock Height="40" Width="160" FontSize="25" x:Name="Totle">0</TextBlock>
+        </Grid>
+        <TextBlock FontSize="25" Height="43" Width="150" Margin="130,270,10,0">目標卡洛里:</TextBlock>
+        <TextBox Height="50"  Margin="378,270,33,0" FontSize="25" Foreground="Black" Background="DarkGray" x:Name="gogle">0</TextBox>
+    </Grid>
+</Window>
